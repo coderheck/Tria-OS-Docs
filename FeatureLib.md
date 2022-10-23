@@ -4,11 +4,30 @@
 This section lists all features releated to Lighting.
 
 ### LightingFeature:SetLighting(newLighting: `{ [string]: any }`): `nil`
-
+Example: 
+```lua
+MapLib:GetFeature("Lighting"):SetLighting({
+        FogEnd = 100,
+        FogStart = 1,
+        FogColor = Color3.new(1, 0, 0),
+        Ambient = Color3.new(1, 1, 0),
+	OutdoorAmbient = Color3.new(1, 0, 1),
+})
+```
+Used to set the lighting of maps, such as the Ambient and FogColor.
 
 ### LightingFeature:EaseLighting(newLighting: `{ [string]: any }`, tweenInfo: `TweenInfo`): `Tween`
+Example:
+```lua
+MapLib:GetFeature("Lighting"):EaseLighting({
+	FogEnd = 100,
+	FogStart = 1,
+	FogColor = Color3.new(0, 1, 1),
+},TweenInfo.new(4, Enum.EasingStyle.Sine, Enum.EasingDirection.Out))
+```
+tweens the lighting to the values set in the function. They can be customized by lighting and the way the lighting tweens (by using `TweenInfo`.
 
 ## Players
+This section lists all features releated to Lighting.
 
 ### PlayersFeature:GetPlayers(): `[]Player`
-
