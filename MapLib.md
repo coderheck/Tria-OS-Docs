@@ -46,6 +46,7 @@ This function is the equivalent of `Lib.btnFuncs[5] = function() end` in Flood E
 -----------------------------------------------------
 
 ### MapLib:SetLiquidType(liquid: `BasePart`, liquidType: `string`): `nil`
+Example:
 ```lua
 MapLib:SetLiquidType(MapLib.map._Liquid1, "lava") -- changes Liquid1 to lava.
 ```
@@ -54,6 +55,7 @@ This function can be used to change the state of a liquid. There are 3 states yo
 -----------------------------------------------------
 
 ### MapLib:Survive(player: `string`)
+Example:
 ```lua
 local player = game.Players:GetPlayerFromCharacter(other.Parent)
 if (player ~= nil) then
@@ -65,12 +67,12 @@ This function can be used to make the player survive the match without touching 
 -----------------------------------------------------
 
 ### MapLib:MovePart(part: `BasePart`, movement: `Vector3`, duration: `number?`): `nil`
-    old but still usable, merged into MapLib:Move()
+old but still usable, merged into `MapLib:Move()`
 
 -----------------------------------------------------
 
 ### MapLib:MovePartLocal(part: `BasePart`, movement: `Vector3`, duration: `number?`): `nil`
-    old but still usable, merged into MapLib:MoveRelative
+old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
 
