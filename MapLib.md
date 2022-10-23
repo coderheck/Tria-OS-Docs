@@ -19,7 +19,7 @@ Example:
 ```lua
 MapLib:AllowSliding(true)
 ```
-This function can be used to change sliding state in maps. True enables sliding and false disables sliding.
+This function can be used to change sliding state in maps. ```true``` enables sliding and ```false``` disables sliding.
 
 -----------------------------------------------------
 
@@ -27,7 +27,7 @@ This function can be used to change sliding state in maps. True enables sliding 
 
 Example:
 ```lua
-MapLib:ChangeMusic(8166551934, 0.5, 5) --changes the background music to 8166551934 and plays it with the volume of 0.5 and the starttime of 5 (second).
+MapLib:ChangeMusic(8166551934, 0.5, 5) or MapLib:ChangeMusic("8166551934", 0.5, 5) --changes the background music to 8166551934 and plays it with the volume of 0.5 and the start time (in seconds) of 5.
 ```
 This function can be used to change the current music playing in maps, this also replicates to spectators.
 
@@ -53,8 +53,35 @@ This function can be used to change the state of a liquid. There are 3 states yo
 
 -----------------------------------------------------
 
+### MapLib:Survive(player: `string`)
+```lua
+local player = game.Players:GetPlayerFromCharacter(other.Parent)
+if (player ~= nil) then
+    MapLib:Survive(player)
+end
+```
+This function can be used to make the player survive the match without touching ExitRegion.
+
+-----------------------------------------------------
+
 ### MapLib:MovePart(part: `BasePart`, movement: `Vector3`, duration: `number?`): `nil`
+    old but still usable, merged into MapLib:Move()
+
+-----------------------------------------------------
 
 ### MapLib:MovePartLocal(part: `BasePart`, movement: `Vector3`, duration: `number?`): `nil`
+    old but still usable, merged into MapLib:MoveRelative
 
-### MapLib:GetFeature(featureName: `string`: [`Feature`]: (FeatureLib.md)
+-----------------------------------------------------
+
+### MapLib:Move(moveable: `PVInstance`, movement: `Vector3`, duration: `number?`)
+Used to move `PVInstances` (ex. BasePart, Model).
+-----------------------------------------------------
+
+### MapLib:MoveRelative(moveable: PVInstance, movement: Vector3, duration: number?)
+Used to move `PVInstances` locally.
+
+-----------------------------------------------------
+
+### MapLib:GetFeature(featureName: `string`)
+```:GetFeature()``` is used to get any features listed in FeatureLib.md.
