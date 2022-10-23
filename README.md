@@ -5,6 +5,6 @@ This repository has documentation for Tria.OS, feel free to make well written pu
 [API Reference](MapLib.md)
 
 # Advanced
-[Making spectate seamless](SeamlessSpectate.md)
+[Making spectate seamless](SeamlessSpectate.md) \
 [EffectScript](EffectScript.md)
-[Official Studio scripting documents from Roblox] https://create.roblox.com/docs
+[Official Studio scripting documents from Roblox](https://create.roblox.com/docs)
