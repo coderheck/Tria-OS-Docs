@@ -107,7 +107,7 @@ return function(oldMap, options)
 	local s = map.MapScript.Source
 	s = s:gsub(
 		"workspace%.Multiplayer%.GetMapVals%:Invoke%(%)",
-		"game.ServerStorage.Bindables.GetMapLib:Invoke()()"
+		"game.GetMapLib:Invoke()()"
 	)
 	s = s:gsub(
 		"Lib%.Button:connect%(function%(p, bNo%) if Lib%.btnFuncs%[bNo%] then Lib%.btnFuncs%[bNo%]%(bNo, p%) end end%)",
