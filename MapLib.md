@@ -1,6 +1,6 @@
 # Tria.OS Map Library
 
-This does not include deprecated items.
+This DOES include deprecated items.
 
 ## Methods
 ### MapLib:Alert(message: `string`, color: `Color3?`, length: `number?`): `nil`
@@ -27,7 +27,7 @@ This function can be used to change sliding state in maps. True enables sliding 
 
 Example:
 ```lua
-MapLib:ChangeMusic(8166551934, 0.5, 5) --changes the background music to 8166551934 and plays it with the volume of 0.5 and the starttime of 5.
+MapLib:ChangeMusic(8166551934, 0.5, 5) --changes the background music to 8166551934 and plays it with the volume of 0.5 and the starttime of 5 (second).
 ```
 This function can be used to change the current music playing in maps, this also replicates to spectators.
 
