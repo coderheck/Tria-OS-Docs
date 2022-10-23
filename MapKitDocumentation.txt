@@ -1,4 +1,5 @@
 --[[   TRIA.os MAP KIT DOCUMENTATION    ]]--
+--[[ THIS PUBLIC DOCUMENT BELONGS TO TRIA CORPORATION ]]--
 --[[
                 &#BGGPPPPPPPPGGB#&                
             &#GGGGB#&&&    &&&#BGGGG#&            
@@ -61,9 +62,7 @@ C-Settings
 2	-AUDIO-
 	Audio MUST be free to use for non commercial purposes or commercial purposes.
 	TRIA.os is not ran for a commercial profit, and the only profit made is through premium users playing the game and will continue like this forever.
-	Audio functionallity is currently unknown, with recent roblox changes.
-	
-3	-
+	Audio now needs to be verified before it can be heard by everyone playing any maps that has that audio in it.
 
 ]]
 
@@ -71,25 +70,25 @@ C-Settings
 
 1	-SPAWN-
 	Part named Spawn
-	The point at which the players will spawn, with the front of the part being where players spawn.
+	The point at which the players will spawn, with the front of the part (marked by a green label) being where players spawn.
 
 2	-EXITREGION-
 	Part named ExitRegion
-	When player enters this block the round is won if all buttons are pressed
-	For more than ONE ExitRegion create a Folder or Model named ExitRegion, and all parts within it will be ExitRegion parts
+	When player enters this block, the round is won if all buttons are pressed
+	For more than ONE ExitRegion create a Folder or Model named ExitRegion, and all parts within it will be ExitRegion parts.
 
 3	-EXITBLOCK-
 	Part named ExitBlock
-	When a player enters ExitRegion, will turn to cancollide on to prevent players from leaving exit
+	When a player enters ExitRegion, will turn to cancollide on to prevent players from leaving exit.
 
 4	-WALLJUMPS-
 	Part with the name _WallJump and value _WallJump
-	Creates a part which can be jumped from
+	Creates a part which can be jumped from.
 
 5	-WALLRUNS-
 	Part with the name _WallRun and value _WallRun
-	_WallRun value contains the speed of the wallrun, how fast it is going
-	Wallruns act as walljumps that move the player towards the local positive X direction
+	_WallRun value contains the speed of the wallrun, how fast it is going.
+	Wallruns act as walljumps that move the player towards the local positive X direction.
 
 6	-LIQUIDS-
 	Part with the name _Liquid
