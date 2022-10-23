@@ -76,19 +76,19 @@
 	--MAIN SETTINGS--
 	
 	"Creator" - Insert the creator(s) of the map here.
-	"Difficulty" - The difficulty of the map. ("1" = Easy, "2" = Normal, "3" = Hard, "4" = Insane,"5" = Extreme and "6" = Valiant.)
+	"Difficulty" - The difficulty of the map. ("1" = Easy, "2" = Normal, "3" = Hard, "4" = Insane,"5" = Extreme and "6" = Divine.)
 	"Image" - The thumbnail of the map.
 	"MaxTime" - The time players can exist in a map before exceeding max time in seconds. (Maximum you can set is 7 minutes, aka 420 seconds.)
-	"Music" - The ID of the music the map is going to use.
+	"Music" - The ID of the music the map is going to use. (ex. 9923599661)
 	"MusicVolume" - The volume of the map music. (e.g 1 = volume of the roblox audio, 0.5 = halved volume, 2 = double volume)
 	"Name" - The map name.
 
 ]]--
 
---[[ ADVANCED SCRIPTING EXPLANATION, BASIC SCRIPTING EXPLANATION IS IN MAPSCRIPT
+--[[ ADVANCED SCRIPTING EXPLANATION, BASIC SCRIPTING EXPLANATION IS IN MapScript.md
 
 	MapLib.ButtonPressed -- Is a RBXSignal that is fired when a button is pressed
-	MapLib.Map -- Reference the map instance
+	MapLib.map -- Reference the map model
 	MapLib.btnFuncs [Deprecated] -- indexes of this table will be called when a button is pressed, please use MapLib:GetButtonEvent() instead of this.
 	
 	MapLib:GetButtonEvent(buttonID: number): Event(player) -- returns a event that will be fired when the specified buttonID is pressed.
