@@ -1,6 +1,6 @@
-----------------------------------------
----- Flood escape 2 to V2 converter ----
-----------------------------------------
+---------------------------------------------
+---- Flood Escape 2 to TRIA.os converter ----
+---------------------------------------------
 
 function valueToAttribute(value)
 	if value:IsA("ValueBase") then
