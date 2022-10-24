@@ -25,9 +25,9 @@ MapLib:GetFeature("Lighting"):EaseLighting({
 	FogColor = Color3.new(0, 1, 1),
 },TweenInfo.new(4, Enum.EasingStyle.Sine, Enum.EasingDirection.Out))
 ```
-tweens the lighting to the values set in the function. They can be customized by lighting and the way the lighting tweens (by using `TweenInfo`.
+Tweens the lighting to the values set in the function. They can be customized by lighting and the way the lighting tweens (by using `TweenInfo`.
 
 ## Players
 This section lists all features releated to Lighting.
 
-### PlayersFeature:GetPlayers(): `[]Player`
+### PlayersFeature:GetPlayers(): `[Player]`
