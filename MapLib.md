@@ -54,6 +54,16 @@ This function can be used to change the state of a liquid. There are 3 states yo
 
 -----------------------------------------------------
 
+### MapLib:Move(moveable: `PVInstance`, movement: `Vector3`, duration: `number?`)
+Used to move `PVInstances` (ex. `BasePart`, `Model`)
+
+-----------------------------------------------------
+
+### MapLib:MoveRelative(moveable: `PVInstance`, movement: Vector3, duration: number?)
+Used to move `PVInstances` locally.
+
+-----------------------------------------------------
+
 ### MapLib:Survive(player: `string`)
 Example:
 ```lua
@@ -76,14 +86,15 @@ old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
 
-### MapLib:Move(moveable: `PVInstance`, movement: `Vector3`, duration: `number?`)
-Used to move `PVInstances` (ex. BasePart, Model).
------------------------------------------------------
-
-### MapLib:MoveRelative(moveable: PVInstance, movement: Vector3, duration: number?)
-Used to move `PVInstances` locally.
+### MapLib.MoveModel(moveable: `Model`, movement: `Vector3`, duration: `number?`)
+old but still usable, merged into `MapLib:Move()`
 
 -----------------------------------------------------
+
+### MapLib.MoveModelLocal() - acts as MapLib.MoveRelative(moveable: `Model`, movement: `Vector3`, duration: `number?`)
+old but still usable, merged into `MapLib:MoveRelative()`
+
+
 
 ### MapLib:GetFeature(featureName: `string`)
 `:GetFeature()` is used to get any features listed in FeatureLib.md.
