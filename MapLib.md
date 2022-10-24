@@ -13,16 +13,6 @@ This function can be used to send a message to everyone, they can be customized 
 
 -----------------------------------------------------
 
-### MapLib:AllowSliding(slideState: `boolean`): `nil`
-
-Example:
-```lua
-MapLib:AllowSliding(true)
-```
-This function can be used to change sliding state in maps. ```true``` enables sliding and ```false``` disables sliding.
-
------------------------------------------------------
-
 ### MapLib:ChangeMusic(musicId: `string|number`, volume: `number?`, startTick: `number?`): `nil`
 
 Example:
