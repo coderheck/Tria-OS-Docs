@@ -56,6 +56,11 @@ Used to move `PVInstances` (ex. `BasePart`, `Model`)
 -----------------------------------------------------
 
 ### MapLib:MoveRelative(moveable: `PVInstance`, movement: Vector3, duration: number?)
+```lua
+local maplib = game.GetMapLib:Invoke()()
+local map = maplib.map
+MapLib:Move(map.MovingPart, Vector3.new(12, 0, 0), 3)
+```
 Used to move `PVInstances` locally.
 
 -----------------------------------------------------
@@ -63,6 +68,7 @@ Used to move `PVInstances` locally.
 ### MapLib:Survive(player: `string`)
 Example:
 ```lua
+local maplib = game.GetMapLib:Invoke()()
 local player = game.Players:GetPlayerFromCharacter(other.Parent)
 if (player ~= nil) then
     MapLib:Survive(player)
