@@ -17,7 +17,7 @@ This function can be used to send a message to everyone, they can be customized 
 
 Example:
 ```lua
-MapLib:ChangeMusic(8166551934, 0.5, 5) or MapLib:ChangeMusic("8166551934", 0.5, 5) --changes the background music to 8166551934 and plays it with the volume of 0.5 and the start time (in seconds) of 5.
+MapLib:ChangeMusic(8166551934, 0.5, 5) --changes the background music to 8166551934 and plays it with the volume of 0.5 and the start time (in seconds) of 5.
 ```
 This function can be used to change the current music playing in maps, this also replicates to spectators.
 
@@ -45,6 +45,12 @@ This function can be used to change the state of a liquid. There are 3 states yo
 -----------------------------------------------------
 
 ### MapLib:Move(moveable: `PVInstance`, movement: `Vector3`, duration: `number?`)
+Example:
+```lua
+local maplib = game.GetMapLib:Invoke()()
+local map = maplib.map
+MapLib:Move(map.MovingPart, Vector3.new(12, 0, 0), 3)
+```
 Used to move `PVInstances` (ex. `BasePart`, `Model`)
 
 -----------------------------------------------------
