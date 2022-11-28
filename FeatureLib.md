@@ -1,6 +1,6 @@
 # Tria.OS Features Library
 
-## Lighting
+## Lighting (DEPRECATED)
 This section lists all features releated to Lighting.
 
 ### LightingFeature:SetLighting(newLighting: `{ [string]: any }`)
