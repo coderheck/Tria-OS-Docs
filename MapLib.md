@@ -55,7 +55,7 @@ Used to move `PVInstances` (ex. `BasePart`, `Model`)
 
 -----------------------------------------------------
 
-### MapLib:MoveRelative(moveable: `PVInstance`, movement: Vector3, duration: number?)
+### MapLib:MoveRelative(moveable: `PVInstance`, movement: `Vector3`, duration: `number?`)
 ```lua
 local maplib = game.GetMapLib:Invoke()()
 local map = maplib.map
