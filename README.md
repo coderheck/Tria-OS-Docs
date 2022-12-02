@@ -1,5 +1,5 @@
 # Tria OS Documentation
-This repository has documentation for TRIA.os, currently being worked on by myself to try to explain TRIA's engine for the beginners.
+This repository fork has documentation for TRIA.os, currently being worked on by myself to try to explain TRIA's engine for the beginners.
 
 # Beginner
 [API Reference](MapLib.md) \
