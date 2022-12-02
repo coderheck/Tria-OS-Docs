@@ -100,3 +100,5 @@ old but still usable, merged into `MapLib:MoveRelative()`
 
 ### MapLib:GetFeature(featureName: `string`)
 `:GetFeature()` is used to get any features listed in FeatureLib.md.
+### MapLib:GetPlayers(): `string`
+`:GetPlayers()` is used to get players in the current map.
