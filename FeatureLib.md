@@ -1,7 +1,7 @@
 # Tria.OS Features Library
 
 ## Lighting (DEPRECATED)
-This section lists all features releated to Lighting.
+This section lists all features releated to Lighting. DEPRECATED DO NOT USE THIS IN YOUR MAP BECAUSE THIS WILL BE REMOVED IN TRIA V1.0
 
 ### LightingFeature:SetLighting(newLighting: `{ [string]: any }`)
 Example: 
@@ -31,6 +31,7 @@ Tweens the lighting to the values set in the function. They can be customized by
 This section lists all features releated to Lighting.
 
 ### PlayersFeature:GetPlayers(): `[Player]`
+old/deprecated, use MapLib:GetPlayers()
 
 ## Miscellaneous
 
