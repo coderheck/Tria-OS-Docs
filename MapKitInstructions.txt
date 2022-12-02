@@ -34,11 +34,10 @@
 
 --[[ ON THE TOPIC OF WALLJUMPING/WALLRUNNING
 	
-	To assign a part to be a walljump, insert an ObjectValue with the name of "_WallJump", leaving the Value blank.
+	To assign a part to be a walljump, go to the Properties tab of the instnace you want to be a walljump, add a new attribute called "_actions" and set the attribute value as "WallJump"
 	
-	To assign a part to be a wallrun, insert an NumberValue with the name of "_WallRun", and insert how many studs per second you want the player
-	to move towards local positive X direction in the value.
-	
+	To assign a part to be a wallrun, go to the Properties tab of the instnace you want to be a walljump, add 3 new attributes called "_actions", "Momentum", "Speed" and set the "_actions" value as "WallRun", "Momentum" value as the momentum you want to give the players after jumping off of the wallrun and "Speed" value as how fast the players can traverse by the wallrun in studs per seconds.
+
 ]]--
 
 --[[ ON THE TOPIC OF BUTTONS
@@ -85,11 +84,10 @@
 
 ]]--
 
---[[ ADVANCED SCRIPTING EXPLANATION, BASIC SCRIPTING EXPLANATION IS IN MapScript.md
+--[[ ADVANCED SCRIPTING EXPLANATION, BASIC SCRIPTING EXPLANATION IS IN MapLib.md
 
 	MapLib.ButtonPressed -- Is a RBXSignal that is fired when a button is pressed
 	MapLib.map -- Reference the map model
-	MapLib.btnFuncs [Deprecated] -- indexes of this table will be called when a button is pressed, please use MapLib:GetButtonEvent() instead of this.
 	
 	MapLib:GetButtonEvent(buttonID: number): Event(player) -- returns a event that will be fired when the specified buttonID is pressed.
 	
