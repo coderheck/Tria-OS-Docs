@@ -96,9 +96,12 @@ old but still usable, merged into `MapLib:Move()`
 ### MapLib.MoveModelLocal() - acts as MapLib.MoveRelative(moveable: `Model`, movement: `Vector3`, duration: `number?`)
 old but still usable, merged into `MapLib:MoveRelative()`
 
-
+-----------------------------------------------------
 
 ### MapLib:GetFeature(featureName: `string`)
 `:GetFeature()` is used to get any features listed in FeatureLib.md.
-### MapLib:GetPlayers(): `string`
+
+-----------------------------------------------------
+
+### MapLib:GetPlayers(): `Tuple`
 `:GetPlayers()` is used to get players in the current map.
