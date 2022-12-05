@@ -31,6 +31,10 @@ Tweens the lighting to the values set in the function. They can be customized by
 This section lists all features releated to Lighting.
 
 ### PlayersFeature:GetPlayers(): `[Player]`
+Example:
+```lua
+MapLib:GetFeature("Players"):GetPlayers()
+```
 old/deprecated, use MapLib:GetPlayers()
 
 ## Miscellaneous
