@@ -1,5 +1,5 @@
 # Making spectating seamless
-"seamless" is just "smooth" anyways
+"seamless" is just "smooth" anyways \
 When you make a map you might notice that certain things may cause spectating to act strangely, this can be caused by various things that are documented below.
 
 ## Anchoring the player
