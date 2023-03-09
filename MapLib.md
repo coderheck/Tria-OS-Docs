@@ -3,7 +3,7 @@
 This DOES include deprecated items.
 
 ## Methods
-### MapLib:Alert(message: `string`, color: `Color3?`, length: `number?`): `nil`
+### MapLib:Alert(message: `string`, color: `Color3`, length: `number`): `nil`
 
 Example:
 ```lua
@@ -13,7 +13,7 @@ This function can be used to send a message to everyone, they can be customized 
 
 -----------------------------------------------------
 
-### MapLib:ChangeMusic(musicId: `string|number`, volume: `number?`, startTick: `number?`): `nil`
+### MapLib:ChangeMusic(musicId: `string|number`, volume: `number`, startTick: `number`): `nil`
 
 Example:
 ```lua
@@ -55,7 +55,7 @@ Used to move `PVInstances` (ex. `BasePart`, `Model`)
 
 -----------------------------------------------------
 
-### MapLib:MoveRelative(moveable: `PVInstance`, movement: `Vector3`, duration: `number?`)
+### MapLib:MoveRelative(moveable: `PVInstance`, movement: `Vector3`, duration: `number`)
 ```lua
 local maplib = game.GetMapLib:Invoke()()
 local map = maplib.map
@@ -78,22 +78,22 @@ This function can be used to make the player survive the match without touching 
 
 -----------------------------------------------------
 
-### MapLib:MovePart(part: `BasePart`, movement: `Vector3`, duration: `number?`): `nil`
+### MapLib:MovePart(part: `BasePart`, movement: `Vector3`, duration: `number`): `nil`
 old but still usable, merged into `MapLib:Move()`
 
 -----------------------------------------------------
 
-### MapLib:MovePartLocal(part: `BasePart`, movement: `Vector3`, duration: `number?`): `nil`
+### MapLib:MovePartLocal(part: `BasePart`, movement: `Vector3`, duration: `number`): `nil`
 old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
 
-### MapLib.MoveModel(moveable: `Model`, movement: `Vector3`, duration: `number?`)
+### MapLib.MoveModel(moveable: `Model`, movement: `Vector3`, duration: `number`)
 old but still usable, merged into `MapLib:Move()`
 
 -----------------------------------------------------
 
-### MapLib.MoveModelLocal() - acts as MapLib.MoveRelative(moveable: `Model`, movement: `Vector3`, duration: `number?`)
+### MapLib.MoveModelLocal() - acts as MapLib.MoveRelative(moveable: `Model`, movement: `Vector3`, duration: `number`)
 old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
