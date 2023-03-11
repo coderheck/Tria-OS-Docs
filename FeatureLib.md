@@ -1,7 +1,9 @@
 # Tria.OS Features Library
 
+## NOTE: DO NOT USE ANY FEATURES LABELED AS "DEPRECATED".
+
 ## Lighting (DEPRECATED)
-This section lists all features releated to Lighting. DEPRECATED DO NOT USE THIS IN YOUR MAP BECAUSE THIS WILL BE REMOVED IN TRIA V1.0
+This section lists all features releated to Lighting.
 
 ### LightingFeature:SetLighting(newLighting: `{ [string]: any }`)
 Example: 
