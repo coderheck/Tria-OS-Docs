@@ -9,7 +9,7 @@
 
 --[[ BASIC MAP FUNCTIONALITY
 	
-	Every map needs a MapScript, ExitRegion, Spawn, Settings, and buttons as direct childs to the main map model to operate.
+	Every map needs a MapScript, ExitRegion, Spawn, Settings, and buttons as descendants of the map model in order to operate.
 	Spawn has a side marked as the front, players will spawn facing this direction when they spawn.
 	Buttons have to be numbered progressively. If 2 buttons are named _Button3, you won't be able to press one of them. Likewise, if 
 	you have _Button2 and _Button4 but not _Button3, you will not be able to press the fourth button.
@@ -42,7 +42,7 @@
 
 --[[ ON THE TOPIC OF BUTTONS
 	
-	Buttons are neccessary components for any map. A person can only exit once they've pressed all the buttons in the map.
+	Buttons are neccessary components for any map. A player can only exit once they've pressed all the buttons in the map.
 	Group buttons are a type of buttons where 50% of people have to press it before it's pressed. To make a group button, 
 	insert a StringValue called "Group" inside of a button model.
 	
@@ -90,12 +90,4 @@
 	MapLib.map -- Reference the map model
 	
 	MapLib:GetButtonEvent(buttonID: number): Event(player) -- returns a event that will be fired when the specified buttonID is pressed.
-	
-	all of the below functions are non-asynced meaning that they will not yield
-	
-	MapLib:Alert(message: string, color: Color3, time: number) -- Will display a alert on all players screens
-	MapLib:MovePart(part: BasePart, movement: Vector3, duration: number)
-	MapLib:MovePartLocal(part: BasePart, movement: Vector3, duration: number)
-	MapLib:SetLiquidType(liquid: BasePart, type: string) -- Sets the liquid type
-	
 ]]--
