@@ -96,6 +96,7 @@ C-Settings
 	You can assign a part to be liquid by turning cancollide off and assigning a liquid type to it, either using a script or a StringValue
 	To set it using a StringValue, add a StringValue to any liquid part, and rename it "Type". Then, set the Value to any liquid type.
 	To set it using the script, use 'Lib.setLiquidType(Lib.Map._Water._Liquid#, "type")'
+	If you don't assign the liquid type of the liquid, the liquid will break functionality of the swimming system, causing the player to fly up indefinitely. 
 	
 	See C-2 for custom liquids
 
