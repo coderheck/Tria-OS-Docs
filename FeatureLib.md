@@ -30,7 +30,7 @@ MapLib:GetFeature("Lighting"):EaseLighting({
 Tweens the lighting to the values set in the function. They can be customized by lighting and the way the lighting tweens (by using `TweenInfo`).
 
 ## Players (DEPRECATED)
-This section lists all features releated to Lighting.
+This section lists all features releated to Players.
 
 ### PlayersFeature:GetPlayers(): `[Player]`
 Example:
