@@ -38,7 +38,7 @@ This function is the equivalent of `Lib.btnFuncs[5] = function() end` in Flood E
 ### MapLib:SetLiquidType(liquid: `BasePart`, liquidType: `string`): `nil`
 Example:
 ```lua
-MapLib:SetLiquidType(MapLib.map._Liquid1, "lava") -- changes Liquid1 to lava.
+MapLib:SetLiquidType(MapLib.map._Liquid1, "lava") -- changes Liquid1's liquid type to lava.
 ```
 This function can be used to change the state of a liquid. There are 3 states you can choose from excluding custom states, these are "water", "acid" and "lava".
 
@@ -51,7 +51,7 @@ local maplib = game.GetMapLib:Invoke()()
 local map = maplib.map
 MapLib:Move(map.MovingPart, Vector3.new(12, 0, 0), 3)
 ```
-Used to move `PVInstances` (ex. `BasePart`, `Model`)
+Used to move `PVInstances`, replicates to all clients (visible to all players).
 
 -----------------------------------------------------
 
@@ -61,7 +61,7 @@ local maplib = game.GetMapLib:Invoke()()
 local map = maplib.map
 MapLib:Move(map.MovingPart, Vector3.new(12, 0, 0), 3)
 ```
-Used to move `PVInstances` locally.
+Used to move `PVInstances`, does not replicate to all clients (only visible to the player that the script is running for).
 
 -----------------------------------------------------
 
@@ -88,12 +88,12 @@ old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
 
-### MapLib.MoveModel(moveable: `Model`, movement: `Vector3`, duration: `number`)
+### MapLib.MoveModel(moveable: `Model`, movement: `Vector3`, duration: `number`): `nil`
 old but still usable, merged into `MapLib:Move()`
 
 -----------------------------------------------------
 
-### MapLib.MoveModelLocal() - acts as MapLib.MoveRelative(moveable: `Model`, movement: `Vector3`, duration: `number`)
+### MapLib.MoveModelLocal(moveable: `Model`, movement: `Vector3`, duration: `number`): `nil`
 old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
