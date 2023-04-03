@@ -88,6 +88,5 @@
 
 	MapLib.ButtonPressed -- Is a RBXSignal that is fired when a button is pressed
 	MapLib.map -- Reference the map model
-	
-	MapLib:GetButtonEvent(buttonID: number): Event(player) -- returns a event that will be fired when the specified buttonID is pressed.
+
 ]]--
