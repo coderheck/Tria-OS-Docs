@@ -74,7 +74,7 @@ if (player ~= nil) then
     MapLib:Survive(player)
 end
 ```
-This function can be used to make the player survive the match without touching ExitRegion.
+This function can be used to make the player survive the round without touching ExitRegion.
 
 -----------------------------------------------------
 
@@ -104,4 +104,4 @@ old but still usable, merged into `MapLib:MoveRelative()`
 -----------------------------------------------------
 
 ### MapLib:GetPlayers(): `Tuple`
-`:GetPlayers()` is used to get players in the current map.
+`:GetPlayers()` returns a [Tuple](https://create.roblox.com/docs/scripting/luau/tuples) (a list of values) consists of players in the map.
