@@ -3,7 +3,7 @@
 This DOES include deprecated items. (idk which one)
 
 ## Methods
-### MapLib:Alert(message: `string`, color: `Color3`, length: `number`): `nil`
+### MapLib:Alert(message: [`string`](https://create.roblox.com/docs/reference/engine/libraries/string), color: `Color3`, length: `number`): `nil`
 
 Example:
 ```lua
