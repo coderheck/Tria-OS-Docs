@@ -3,7 +3,7 @@
 This DOES include deprecated items. (idk which one)
 
 ## Methods
-### MapLib:Alert(message: [`string`](https://create.roblox.com/docs/reference/engine/libraries/string), color: `Color3`, length: `number`): `nil`
+### MapLib:Alert(message: [`string`](https://create.roblox.com/docs/reference/engine/libraries/string), color: [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3), length: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 Example:
 ```lua
@@ -13,7 +13,7 @@ This function can be used to send a message to everyone, they can be customized 
 
 -----------------------------------------------------
 
-### MapLib:ChangeMusic(musicId: `string|number`, volume: `number`, startTick: `number`): `nil`
+### MapLib:ChangeMusic(musicId: `[string](https://create.roblox.com/docs/reference/engine/libraries/string)|[number](https://create.roblox.com/docs/scripting/luau/numbers)`, volume: [`number`](https://create.roblox.com/docs/scripting/luau/numbers), startTick: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 Example:
 ```lua
