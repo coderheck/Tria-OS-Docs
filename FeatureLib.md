@@ -1,6 +1,6 @@
 # Tria.OS Features Library
 
-## NOTE: DO NOT USE ANY FEATURES LABELED AS "DEPRECATED".
+## NOTE: DO NOT USE ANY FEATURES LABELED AS "DEPRECATED"
 
 ## Lighting (DEPRECATED)
 
@@ -12,11 +12,11 @@ Example:
 
 ```lua
 MapLib:GetFeature("Lighting"):SetLighting({
-        FogEnd = 100,
-        FogStart = 1,
-        FogColor = Color3.new(1, 0, 0),
-        Ambient = Color3.new(1, 1, 0),
-	OutdoorAmbient = Color3.new(1, 0, 1),
+FogEnd = 100,
+FogStart = 1,
+FogColor = Color3.new(1, 0, 0),
+Ambient = Color3.new(1, 1, 0),
+OutdoorAmbient = Color3.new(1, 0, 1),
 })
 ```
 
@@ -28,9 +28,9 @@ Example:
 
 ```lua
 MapLib:GetFeature("Lighting"):EaseLighting({
-	FogEnd = 100,
-	FogStart = 1,
-	FogColor = Color3.new(0, 1, 1),
+FogEnd = 100,
+FogStart = 1,
+FogColor = Color3.new(0, 1, 1),
 },TweenInfo.new(4, Enum.EasingStyle.Sine, Enum.EasingDirection.Out))
 ```
 
