@@ -64,7 +64,7 @@ local map = maplib.map
 MapLib:Move(map.MovingPart, Vector3.new(12, 0, 0), 3)
 ```
 
-Used to move `PVInstances`, replicates to all clients (visible to all players).
+Used to move [`PVInstances`](https://create.roblox.com/docs/reference/engine/classes/PVInstance), replicates to all clients (visible to all players).
 
 -----------------------------------------------------
 
@@ -76,7 +76,7 @@ local map = maplib.map
 MapLib:Move(map.MovingPart, Vector3.new(12, 0, 0), 3)
 ```
 
-Used to move `PVInstances`, does not replicate to all clients (only visible to the player that the script is running for).
+Used to move [`PVInstances`](https://create.roblox.com/docs/reference/engine/classes/PVInstance), does not replicate to all clients (only visible to the player that the script is running for).
 
 -----------------------------------------------------
 
@@ -122,10 +122,10 @@ old but still usable, merged into `MapLib:MoveRelative()`
 
 ### MapLib:GetFeature(featureName: `string`)
 
-`:GetFeature()` is used to get any features listed in FeatureLib.md.
+`:GetFeature()` is used to get any features listed in [the features list](FeatureLib.md)
 
 -----------------------------------------------------
 
 ### MapLib:GetPlayers(): `Tuple`
 
-`:GetPlayers()` is used to get players in the current map.
+`:GetPlayers()` returns a [`Tuple`](https://create.roblox.com/docs/scripting/luau/tuples) containing players currently in a map.
