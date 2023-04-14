@@ -12,7 +12,7 @@ Example:
 MapLib:Alert("This is an Alert!", Color3.fromRGB(255, 255, 255), 10)
 ```
 
-This function can be used to send a message to everyone, they can be customized by color and duration.
+This function can be used to send a message to everyone. The message can be customized by color and duration.
 
 -----------------------------------------------------
 
