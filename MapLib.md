@@ -96,25 +96,25 @@ This function can be used to make the player survive the match without touching 
 
 -----------------------------------------------------
 
-### MapLib:MovePart(part: `BasePart`, movement: `Vector3`, duration: `number`): `nil`
+### MapLib:MovePart(part: [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart), movement: [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), duration: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 old but still usable, merged into `MapLib:Move()`
 
 -----------------------------------------------------
 
-### MapLib:MovePartLocal(part: `BasePart`, movement: `Vector3`, duration: `number`): `nil`
+### MapLib:MovePartLocal(part: [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart), movement: [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), duration: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
 
-### MapLib.MoveModel(moveable: `Model`, movement: `Vector3`, duration: `number`): `nil`
+### MapLib.MoveModel(moveable: [`Model`](https://create.roblox.com/docs/reference/engine/classes/Model), movement: [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), duration: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 old but still usable, merged into `MapLib:Move()`
 
 -----------------------------------------------------
 
-### MapLib.MoveModelLocal(moveable: `Model`, movement: `Vector3`, duration: `number`): `nil`
+### MapLib.MoveModelLocal(moveable: [`Model`](https://create.roblox.com/docs/reference/engine/classes/Model), [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), duration: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 old but still usable, merged into `MapLib:MoveRelative()`
 
@@ -126,6 +126,6 @@ old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
 
-### MapLib:GetPlayers(): `Tuple`
+### MapLib:GetPlayers(): [`Tuple`](https://create.roblox.com/docs/scripting/luau/tuples)
 
 `:GetPlayers()` returns a [`Tuple`](https://create.roblox.com/docs/scripting/luau/tuples) containing players currently in a map.
