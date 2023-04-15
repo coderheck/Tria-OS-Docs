@@ -4,7 +4,7 @@ This DOES include deprecated items. (idk which one)
 
 ## Methods
 
-### MapLib:Alert(message: `string`, color: [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3), length: [`number`](https://create.roblox.com/docs/scripting/luau/numbers): `nil`
+### MapLib:Alert(message: [`string`](https://create.roblox.com/docs/scripting/luau/strings), color: [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3), length: [`number`](https://create.roblox.com/docs/scripting/luau/numbers): `nil`
 
 Example:
 
@@ -42,7 +42,7 @@ This function is the equivalent of `Lib.btnFuncs[5] = function() end` in Flood E
 
 -----------------------------------------------------
 
-### MapLib:SetLiquidType(liquid: [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart), liquidType: `string`): `nil`
+### MapLib:SetLiquidType(liquid: [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart), liquidType: [`string`](https://create.roblox.com/docs/scripting/luau/strings)): `nil`
 
 Example:
 
@@ -80,7 +80,7 @@ Used to move [`PVInstances`](https://create.roblox.com/docs/reference/engine/cla
 
 -----------------------------------------------------
 
-### MapLib:Survive(player: `string`): `nil`
+### MapLib:Survive(player: [`string`](https://create.roblox.com/docs/scripting/luau/strings)): `nil`
 
 Example:
 
@@ -120,7 +120,7 @@ old but still usable, merged into `MapLib:MoveRelative()`
 
 -----------------------------------------------------
 
-### MapLib:GetFeature(featureName: `string`)
+### MapLib:GetFeature(featureName: [`string`](https://create.roblox.com/docs/scripting/luau/strings))
 
 `:GetFeature()` is used to get any features listed in [the features list](FeatureLib.md)
 
