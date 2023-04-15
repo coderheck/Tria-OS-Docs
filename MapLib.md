@@ -4,7 +4,7 @@ This DOES include deprecated items. (idk which one)
 
 ## Methods
 
-### MapLib:Alert(message: `string`, color: `Color3`, length: `number`): `nil`
+### MapLib:Alert(message: `string`, color: [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3), length: [`number`](https://create.roblox.com/docs/scripting/luau/numbers): `nil`
 
 Example:
 
@@ -16,7 +16,7 @@ This function can be used to send a message to everyone. The message can be cust
 
 -----------------------------------------------------
 
-### MapLib:ChangeMusic(musicId: `string|number`, volume: `number`, startTick: `number`): `nil`
+### MapLib:ChangeMusic(musicId: `string|number`, volume: [`number`](https://create.roblox.com/docs/scripting/luau/numbers), startTick: [`number`](https://create.roblox.com/docs/scripting/luau/numbers): `nil`
 
 Example:
 
@@ -28,7 +28,7 @@ This function can be used to change the current music playing in maps, this also
 
 -----------------------------------------------------
 
-### MapLib:GetButtonEvent(buttonId: `number`): `Event`
+### MapLib:GetButtonEvent(buttonId: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal)
 
 Example:
 
@@ -42,7 +42,7 @@ This function is the equivalent of `Lib.btnFuncs[5] = function() end` in Flood E
 
 -----------------------------------------------------
 
-### MapLib:SetLiquidType(liquid: `BasePart`, liquidType: `string`): `nil`
+### MapLib:SetLiquidType(liquid: [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart), liquidType: `string`): `nil`
 
 Example:
 
@@ -54,7 +54,7 @@ This function can be used to change the state of a liquid. There are 3 states yo
 
 -----------------------------------------------------
 
-### MapLib:Move(moveable: `PVInstance`, movement: `Vector3`, duration: `number?`)
+### MapLib:Move(moveable: [`PVInstance`](https://create.roblox.com/docs/reference/engine/classes/PVInstance), movement: [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), duration: [`number?`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 Example:
 
@@ -68,7 +68,7 @@ Used to move [`PVInstances`](https://create.roblox.com/docs/reference/engine/cla
 
 -----------------------------------------------------
 
-### MapLib:MoveRelative(moveable: `PVInstance`, movement: `Vector3`, duration: `number`)
+### MapLib:MoveRelative(moveable: [`PVInstance`](https://create.roblox.com/docs/reference/engine/classes/PVInstance), movement: [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), duration: [`number?`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 ```lua
 local maplib = game.GetMapLib:Invoke()()
@@ -80,7 +80,7 @@ Used to move [`PVInstances`](https://create.roblox.com/docs/reference/engine/cla
 
 -----------------------------------------------------
 
-### MapLib:Survive(player: `string`)
+### MapLib:Survive(player: `string`): `nil`
 
 Example:
 
