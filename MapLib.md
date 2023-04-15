@@ -114,7 +114,7 @@ old but still usable, merged into `MapLib:Move()`
 
 -----------------------------------------------------
 
-### MapLib.MoveModelLocal(moveable: [`Model`](https://create.roblox.com/docs/reference/engine/classes/Model), [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), duration: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
+### MapLib.MoveModelLocal(moveable: [`Model`](https://create.roblox.com/docs/reference/engine/classes/Model), movement: [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), duration: [`number`](https://create.roblox.com/docs/scripting/luau/numbers)): `nil`
 
 old but still usable, merged into `MapLib:MoveRelative()`
 
