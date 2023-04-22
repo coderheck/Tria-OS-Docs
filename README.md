@@ -6,7 +6,7 @@ This repository fork has documentation for TRIA.os, currently being worked on by
 
 [MapLib Reference Sheet](MapLib.md) \
 [Map kit instructions](MapKitInstructions.txt) \
-[Map kit docs](MapKitDocumentation.txt)
+[Map kit docs](MapKitDocumentation.txt) \
 [MapLib Source Code](https://github.com/Tria-Studio/Tria-Escape-MapLib/tree/master/src)
 
 # Advanced
