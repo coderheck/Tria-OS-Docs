@@ -88,7 +88,7 @@ Example:
 local maplib = game.GetMapLib:Invoke()()
 local player = game.Players:GetPlayerFromCharacter(other.Parent)
 if (player ~= nil) then
-    MapLib:Survive(player)
+    maplib:Survive(player)
 end
 ```
 
